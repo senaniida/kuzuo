@@ -1,0 +1,8 @@
+<br>
+<% @posts.each do |t| %>
+  <%= link_to post_path(t) do %>
+    <%= t.genre %>
+  <% end %><br>
+<% end %>
+
+<%= link_to "Topへ", top_path %>

@@ -1,0 +1,8 @@
+<%= @post.genre %>
+<%= link_to "TOPへ", top_path %>
+
+<div style="background-color:red; width:calc(<%= @post.pointa %> * 100px); height:30px;">自己中心さ</div>
+<div style="background-color:red; width:calc(<%= @post.pointb %> * 100px); height:30px;">依存性</div>
+<div style="background-color:red; width:calc(<%= @post.pointc %> * 100px); height:30px;">洗脳力</div>
+
+クズ度総合点<%= @post.pointa + @post.pointb + @post.pointc %>点

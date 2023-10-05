@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  pointa: 1
+  pointb: 1
+  pointc: 1
+  genre: MyString
+
+two:
+  pointa: 1
+  pointb: 1
+  pointc: 1
+  genre: MyString
